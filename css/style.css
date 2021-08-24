@@ -126,7 +126,7 @@
     text-align:center;
   }
 
-  input, button, select {
+  input, button, select, textarea {
     width: 98%;
     padding: 2.5% 0;
     margin-bottom: 2%;
@@ -141,19 +141,7 @@
   }
 
 
-  textarea {
-    width: 98%;
-    padding: 2.5% 0;
-    margin-bottom: 2%;
-    background: #BBCFDF;
-    color: black;
-    font-size: 18px;
-    outline: none;
-    font-weight: 400;
-    text-indent: 10px;
-    border: 1px solid #FFFFFF;
-    border-radius: 3px;
-  }
+
 
   input[type="submit"] {
     cursor: pointer;
