@@ -1,8 +1,3 @@
-function onClick(element) {
-  document.getElementById("modal-img").src = element.src;
-  document.getElementById("gallery-modal").style.display = "block";
-}
-
 function openTab(tabName, elmnt, color) {
   var i, menucontent, menulinks;
   menucontent = document.getElementsByClassName("menucontent");
@@ -17,6 +12,11 @@ function openTab(tabName, elmnt, color) {
   elmnt.style.backgroundColor = color;
 }
 document.getElementById("defaultOpen").click();
+
+function onClick(element) {
+  document.getElementById("modal-img").src = element.src;
+  document.getElementById("gallery-modal").style.display = "block";
+}
 
 function sendMessage(){
   var name=document.getElementById("name").value;
